@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "npm-run-all -p watch:css watch:html server",
-    "watch:css": "sass src/scss/* dist/css/*",
+    "watch:css": "sass -w src/scss/:dist/css/",
     "watch:html": "pug -w -P src/pug/*.pug -o dist/",
     "build": "npm-run-all -p build:css build:html",
     "build:css": "sass src/scss/* dist/css/*",
