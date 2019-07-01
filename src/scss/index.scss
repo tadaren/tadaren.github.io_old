@@ -1,0 +1,43 @@
+header{
+  height: 40px;
+  width: 100%;
+  position: fixed;
+}
+nav{
+  height: 100%;
+  font-size: 25px;
+  ul{
+    height: 100%;
+    background-color: #f0f0f0;
+    li{
+      margin-left: 10px;
+      display: inline;
+      a{
+        text-decoration: none;
+      }
+    }
+  }
+}
+main{
+  width: 100vw;
+  height: 100vh;
+  padding-top: 40px;
+  #Home{
+    margin-top: -40px;
+    padding-top: 40px;
+    width: 100%;
+    height: 100vh;
+  }
+  #Profile{
+    margin-top: -40px;
+    padding-top: 40px;
+    width: 100%;
+    height: 100vh;
+  }
+  #Works{
+    margin-top: -40px;
+    padding-top: 40px;
+    width: 100%;
+    height: 100vh;
+  }
+}

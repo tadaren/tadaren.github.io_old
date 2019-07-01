@@ -1,3 +1,38 @@
+header {
+  height: 40px;
+  width: 100%;
+  position: fixed; }
 
+nav {
+  height: 100%;
+  font-size: 25px; }
+  nav ul {
+    height: 100%;
+    background-color: #f0f0f0; }
+    nav ul li {
+      margin-left: 10px;
+      display: inline; }
+      nav ul li a {
+        text-decoration: none; }
+
+main {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 40px; }
+  main #Home {
+    margin-top: -40px;
+    padding-top: 40px;
+    width: 100%;
+    height: 100vh; }
+  main #Profile {
+    margin-top: -40px;
+    padding-top: 40px;
+    width: 100%;
+    height: 100vh; }
+  main #Works {
+    margin-top: -40px;
+    padding-top: 40px;
+    width: 100%;
+    height: 100vh; }
 
 /*# sourceMappingURL=index.css.map */
