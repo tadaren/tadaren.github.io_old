@@ -7,11 +7,15 @@ nav{
   height: 100%;
   font-size: 25px;
   ul{
+    display: flex;
     height: 100%;
     background-color: #f0f0f0;
     li{
-      margin-left: 10px;
-      display: inline;
+      // margin-left: 10px;
+      text-align: center;
+      height: 100%;
+      width: 95px;
+      display: inline-block;
       a{
         text-decoration: none;
       }
