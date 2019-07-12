@@ -14,6 +14,8 @@ nav {
       display: inline; }
       nav ul li a {
         text-decoration: none; }
+      nav ul li a:visited {
+        color: black; }
 
 main {
   width: 100vw;
